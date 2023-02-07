@@ -5,7 +5,10 @@
 import warnings
 warnings.simplefilter(action='ignore')
 
-import utilities.menuManagement as menu
+# import utilities.helpers.menuManagement as menu
+import utilities.repositories.dataLoader as load
+from utilities.helpers.common import *
 
 if __name__ == "__main__":
-  menu.mainMenu()
+  load.pcap(ctuPcap['scenario1'])
+  # menu.mainMenu()

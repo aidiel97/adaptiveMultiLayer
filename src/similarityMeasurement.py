@@ -1,7 +1,7 @@
-import utilities.watcher as watcher
-import utilities.menuManagement as menu
-import utilities.data as data
-import utilities.csvGenerator as generate
+import utilities.helpers.watcher as watcher
+import utilities.helpers.menuManagement as menu
+import utilities.data.data as data
+import utilities.data.csvGenerator as generate
 import src.preProcessing as pp
 import src.classificator as cls
 

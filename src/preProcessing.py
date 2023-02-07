@@ -4,7 +4,7 @@ import socket, struct
 import seaborn as sns
 import numpy as np
 
-from utilities.watcher import *
+from utilities.helpers.watcher import *
 from sklearn.decomposition import PCA, TruncatedSVD, FastICA, FactorAnalysis
 
 #state dictionary (source: Nagabhushan S Baddi)

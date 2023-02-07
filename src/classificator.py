@@ -1,8 +1,8 @@
 import csv
 
-from utilities.watcher import *
-import utilities.csvGenerator as generate
-import utilities.data as data
+from utilities.helpers.watcher import *
+import utilities.data.csvGenerator as generate
+import utilities.data.data as data
 import src.preProcessing as pp
 
 from datetime import datetime
